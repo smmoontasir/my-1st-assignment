@@ -132,4 +132,40 @@ background: none;
     padding-left: 50px;
 }
 /* 3rd section */
+.date-time{
+    background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%), pink;
+    height: 600px;
+    width: fixed 1320px;
+    margin: 100px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.date-time-text{
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+text-align: center;
+}
+#time{
+    background-color: #F00;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFF;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+span{
+    color: #F00;
+}
 
