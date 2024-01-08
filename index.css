@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* header section */
+header > div{
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Banner\ Image.png');
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1200px;
+    width: fixed 1320px; 
+    margin: 100px 300px; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header >div > div{
+color: #FFF;
+font-family: Merriweather;
+font-style: normal;
+text-align: center;
+
+}
+.banner-tu{
+    font-size: 70px;
+    font-weight: 200;
+    line-height: normal;
+}
+.banner-td{
+font-size: 100px;
+font-weight: 900;
+line-height: 95px;
+}
+/*1st section*/
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.off{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.red-title{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.black-title{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* 2nd section */
+.party-section{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1200px;
+    width: fixed 1320px; 
+    margin: 100px 300px; 
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+r
+
+}
+.party-text-one{
+ color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+}
+.party-text-two{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.party-button{
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
