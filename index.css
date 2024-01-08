@@ -91,7 +91,7 @@ r
 .party-text-one{
  color: #FFF;
 font-family: Merriweather;
-font-size: 64px;
+font-size: 84px;
 font-style: normal;
 font-weight: 900;
 line-height: 88px;
@@ -100,17 +100,36 @@ letter-spacing: 7.04px;
 .party-text-two{
 color: rgba(255, 255, 255, 0.80);
 font-family: Inter;
-font-size: 30px;
+font-size: 40px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-.party-button{
+button{
 color: #FFF;
 font-family: Inter;
-font-size: 20px;
+font-size: 42px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+border: none;
+background: none;
 }
+.party-text{
+    padding: 126px 0px 142px 126px;
+}
+.twozero{
+    padding: 68px 150px 68px 0px;
+    
+}
+.party-image{
+    width:500px;
+    height:700px;
+}
+.party-button{
+    padding-top: 49px;
+    padding-left: 50px;
+}
+/* 3rd section */
+
