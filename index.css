@@ -133,7 +133,7 @@ background: none;
 }
 /* 3rd section */
 .date-time{
-    background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%), pink;
+    background: rgba(255, 0, 0, 0.05);
     height: 600px;
     width: fixed 1320px;
     margin: 100px 300px;
@@ -168,4 +168,63 @@ text-align: center;
 span{
     color: #F00;
 }
+/* 4th section */
+.baji-section{
+    height: 1500px;
+    width: fixed 1320px; 
+    margin: 200px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.baji-image{
+    border: 25px solid red;
+    height: 500px;
+    width: 500px;;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.baji-image-pic{
+   max-width: 450px;
+   max-height: 450px;
+}
+.baji-left-text{
+
+}
+.baji-left-one{
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.baji-left-two{
+font-family: Merriweather;
+font-size: 65px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.baji-left-three{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.baji-right-text{
+    
+
+}
+.baji-right-three{
+    padding-top: 43px;
+}
+
+
 
