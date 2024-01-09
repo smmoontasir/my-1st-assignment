@@ -186,6 +186,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 220px;
 
 }
 .baji-image-pic{
@@ -224,6 +225,56 @@ text-transform: capitalize;
 }
 .baji-right-three{
     padding-top: 43px;
+}
+/* section 6 */
+.gift-prot{
+    width: fixed 1320px; 
+    margin: 200px 300px;
+
+
+}
+.section-5-text{
+    
+}
+.gift-text{
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.prot-text{
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.gift-small{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+.row-1{
+    display: flex;
+    justify-content:space-between;
+    border-radius: 16px;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.maze
+{
+    width: 800px;
+    height:600px;
+
 }
 /* footer */
 footer{
@@ -269,5 +320,6 @@ line-height: 40px;
 #footer-1-text-2{
     padding-right: 150px;
 }
+
 
 
