@@ -234,7 +234,7 @@ text-transform: capitalize;
 
 }
 .section-5-text{
-    
+
 }
 .gift-text{
     font-family: Inter;
@@ -275,6 +275,59 @@ text-transform: capitalize;
     width: 800px;
     height:600px;
 
+}
+/* subscribe section */
+.sub{
+    width: fixed 1320px; 
+    height: 1000px;
+    margin: 200px 300px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub-head{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sub-p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.sub-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px 100px 0px;
+}
+.form-button{
+    padding: 24px 56px;
+    background-color: #F00;
+    text-align: center;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.sub-form > input{
+    color: rgba(7, 2, 17, 0.30);
+    border: none;
+    border-radius:50px 0px 0px 50px ;
+    font-size: 25px;
+    height: max-content;
+    padding: 24px 56px;
 }
 /* footer */
 footer{
