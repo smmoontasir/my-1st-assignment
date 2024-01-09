@@ -197,14 +197,14 @@ span{
 }
 .baji-left-one{
 font-family: Inter;
-font-size: 35px;
+font-size: 45px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
 .baji-left-two{
 font-family: Merriweather;
-font-size: 65px;
+font-size: 80px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
@@ -213,7 +213,7 @@ text-transform: capitalize;
 .baji-left-three{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -225,6 +225,49 @@ text-transform: capitalize;
 .baji-right-three{
     padding-top: 43px;
 }
-
+/* footer */
+footer{
+    background: #070211;
+    margin: 0px;
+}
+.footer-m{
+    height: 800px;
+    width: fixed 1320px; 
+    display: flex;
+    flex-direction:column;
+    padding: 120px 140px 120px 140px;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-text{
+color: #FFF;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr{
+    height: 1px;
+    font-weight: normal;
+}
+#footer-1-text-2{
+    padding-right: 150px;
+}
 
 
