@@ -332,7 +332,6 @@ text-transform: capitalize;
 /* opt section */
 .opt{
     width: fixed 1320px; 
-    height: auto;
     margin: 100px 300px 100px 300px; 
     display: flex;
     justify-content: center;
